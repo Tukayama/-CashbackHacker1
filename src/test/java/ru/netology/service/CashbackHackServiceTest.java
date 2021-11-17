@@ -27,7 +27,7 @@ public class CashbackHackServiceTest {
     public void maximumBoundaryValues() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 1000;
-        int expected = 1000;
+        int expected = 0;
         int astual = cashbackHackService.remain(amount);
         assertEquals(expected, astual);
     }
